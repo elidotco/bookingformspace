@@ -32,7 +32,7 @@ const testEmail = async () => {
           <h2 style="color: #2d3748; text-align: center;">🎵 Email Test Successful!</h2>
           <div style="background: #f0fff4; border: 1px solid #38a169; border-radius: 8px; padding: 20px; margin: 20px 0;">
             <p><strong>✅ Your Gmail configuration is working correctly!</strong></p>
-            <p>This test email confirms that:</p>
+            <p>This test email confirms :</p>
             <ul>
               <li>Nodemailer can connect to Gmail</li>
               <li>Your app password is valid</li>
@@ -50,7 +50,7 @@ const testEmail = async () => {
 
 Your Gmail configuration is working correctly!
 
-This test email confirms that:
+This test email confirms :
 - Nodemailer can connect to Gmail
 - Your app password is valid  
 - Emails will be sent successfully
@@ -75,7 +75,7 @@ From: ${process.env.EMAIL_USER}
     }
     if (error.message.includes("Username and Password not accepted")) {
       console.log(
-        "\n💡 Solution: Check that 2FA is enabled and try generating a new app password"
+        "\n💡 Solution: Check  2FA is enabled and try generating a new app password"
       );
     }
   }
