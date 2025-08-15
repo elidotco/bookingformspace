@@ -10,6 +10,7 @@ import {
   Phone,
   Building,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function GospelBookingForm() {
   const [formData, setFormData] = useState({
@@ -109,13 +110,20 @@ export default function GospelBookingForm() {
     >
       <div className="max-w-4xl mx-auto bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl overflow-hidden">
         {/* Header */}
-        <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white px-8 py-12 text-center">
-          <h1 className="text-4xl md:text-5xl font-light mb-3">
+        <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white  text-center">
+          {/* <h1 className="text-4xl md:text-5xl font-light mb-3">
             Daughters Of Glorious Jesus
           </h1>
           <p className="text-lg text-purple-100">
             Book your spiritual musical experience
-          </p>
+          </p> */}
+          <Image
+            src="/hearder.png"
+            alt="header"
+            width={1900}
+            height={1080}
+            className="w-full h-full"
+          />
         </div>
 
         {/* Form */}
@@ -346,9 +354,9 @@ export default function GospelBookingForm() {
                 </h3>
                 <p className="mb-4 text-slate-600">
                   That the client shall pay at least half of the agreed amount,
-                  10 days before the date of the event to secure or confirm the
-                  booking; and the remaining half of the total amount preferably
-                  before the performance.
+                  then they be provided with the artist’s image to be used; and
+                  the remaining half of the total amount preferably before the
+                  performance.
                 </p>
 
                 <h3 className="font-semibold text-slate-700 mb-3">
@@ -371,16 +379,7 @@ export default function GospelBookingForm() {
                 </p>
 
                 <h3 className="font-semibold text-slate-700 mb-3">
-                  5. Merchandise & Services Sales
-                </h3>
-                <p className="mb-4 text-slate-600">
-                  That the artists may during the event sell any goods,
-                  products, merchandise or services (other than the services
-                  provided herein) on the grounds of the event.
-                </p>
-
-                <h3 className="font-semibold text-slate-700 mb-3">
-                  6. Excuse from Obligations (Force Majeure)
+                  5. Excuse from Obligations (Force Majeure)
                 </h3>
                 <p className="mb-4 text-slate-600">
                   That the client and artists shall be excused from their
@@ -391,7 +390,7 @@ export default function GospelBookingForm() {
                 </p>
 
                 <h3 className="font-semibold text-slate-700 mb-3">
-                  7. Security
+                  6. Security
                 </h3>
                 <p className="mb-4 text-slate-600">
                   That the client shall use everything in its power to provide
@@ -400,17 +399,7 @@ export default function GospelBookingForm() {
                 </p>
 
                 <h3 className="font-semibold text-slate-700 mb-3">
-                  8. Client Material Obligations
-                </h3>
-                <p className="mb-4 text-slate-600">
-                  If the client refuses or fails to provide any of its material
-                  obligation necessary for the performance (equally sound,
-                  security, conducive environment) the artists shall have the
-                  right to refuse to perform.
-                </p>
-
-                <h3 className="font-semibold text-slate-700 mb-3">
-                  9. Authority to Bind the Artist
+                  7. Authority to Bind the Artist
                 </h3>
                 <p className="mb-4 text-slate-600">
                   That the manager who is executing this agreement on behalf of
@@ -419,14 +408,6 @@ export default function GospelBookingForm() {
                   is executing this agreement and acknowledges that he is making
                   this representation and warranty with the understanding that
                   the client is relying thereon.
-                </p>
-
-                <h3 className="font-semibold text-slate-700 mb-3">
-                  10. Execution
-                </h3>
-                <p className="mb-4 text-slate-600">
-                  IN WITNESS WHEREOF, this agreement is executed on the date
-                  first above written.
                 </p>
               </div>
 
