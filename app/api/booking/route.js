@@ -191,7 +191,7 @@ Submitted: ${new Date().toLocaleString("en-US")}
           <p>We have received your booking request for <strong>${organization}</strong> on <strong>${formattedDate}</strong>.</p>
           <p>We will review your request and contact you within 24 hours to confirm availability and discuss next steps.</p>
           <p>If you have any urgent questions, please feel free to reply to this email.</p>
-          <p>Blessings,<br>Gospel Artist Booking Team</p>
+          <p>Blessings,<br>Daughters Of Glorious Jesus Team</p>
         </div>
       `,
     };
