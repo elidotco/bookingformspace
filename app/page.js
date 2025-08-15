@@ -313,8 +313,6 @@ export default function GospelBookingForm() {
                 <option value="15-30min">15-30 minutes</option>
                 <option value="30-45min">30-45 minutes</option>
                 <option value="45-60min">45-60 minutes</option>
-                <option value="60-90min">60-90 minutes</option>
-                <option value="full-concert">Full Concert (90+ minutes)</option>
               </select>
             </div>
 
@@ -344,7 +342,7 @@ export default function GospelBookingForm() {
                   1. Invoice & Compensation
                 </h3>
                 <p className="mb-4 text-slate-600">
-                  the artist’s manager shall communicate to the client with
+                  The artist’s manager shall communicate to the client with
                   invoice an aggregate sum of amount for compensation after
                   taking into consideration all the details provided.
                 </p>
@@ -353,17 +351,17 @@ export default function GospelBookingForm() {
                   2. Payment Schedule
                 </h3>
                 <p className="mb-4 text-slate-600">
-                  the client shall pay at least half of the agreed amount, then
-                  they be provided with the artist’s image to be used; and the
-                  remaining half of the total amount preferably before the
-                  performance.
+                  The client shall pay at least half of the agreed amount to
+                  secure the booking then, the offical image of the artist shall
+                  be sent to him; and the remaining half of the total amount
+                  preferably a week to the performance.
                 </p>
 
                 <h3 className="font-semibold text-slate-700 mb-3">
                   3. Performance in Accordance with Agreement
                 </h3>
                 <p className="mb-4 text-slate-600">
-                  the Artists shall provide the performance in accordance with
+                  The Artists shall provide the performance in accordance with
                   the terms of this agreement and any addendums or riders
                   hereto.
                 </p>
@@ -372,7 +370,7 @@ export default function GospelBookingForm() {
                   4. Recording/Transmission Restrictions
                 </h3>
                 <p className="mb-4 text-slate-600">
-                  the client shall use its best efforts to prevent the
+                  The client shall use its best efforts to prevent the
                   recording, reproduction or transmission of the performance
                   without the written permission of the Artists or their
                   representative.
@@ -382,7 +380,7 @@ export default function GospelBookingForm() {
                   5. Excuse from Obligations (Force Majeure)
                 </h3>
                 <p className="mb-4 text-slate-600">
-                  the client and artists shall be excused from their obligations
+                  The client and artists shall be excused from their obligations
                   hereunder in the event of proven sickness, accident, riot,
                   strike, epidemic, force majeure and or any legitimate
                   condition or occurrence beyond their respective control.
@@ -392,7 +390,7 @@ export default function GospelBookingForm() {
                   6. Security
                 </h3>
                 <p className="mb-4 text-slate-600">
-                  the client shall use everything in its power to provide
+                  The client shall use everything in its power to provide
                   adequate security for the artists, their band and crew as long
                   as they remain at the event grounds.
                 </p>
@@ -401,7 +399,7 @@ export default function GospelBookingForm() {
                   7. Authority to Bind the Artist
                 </h3>
                 <p className="mb-4 text-slate-600">
-                  the manager who is executing this agreement on behalf of the
+                  The manager who is executing this agreement on behalf of the
                   Artists hereby warrants and represents he has the full power
                   and authority to bind the artist on whose behalf he is
                   executing this agreement and acknowledges he is making this
